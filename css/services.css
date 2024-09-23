@@ -1,0 +1,33 @@
+body {
+    margin: auto;
+  }
+  
+
+
+header{
+    border: 10px;
+    background-color: #ea6a13;
+    position: relative;
+    padding: 20px 0;
+    animation: headerOpacity 1.4s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+.button{
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.menu{
+    margin-left: 5%;
+}
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.info-nav{
+    padding: 15px;
+}
