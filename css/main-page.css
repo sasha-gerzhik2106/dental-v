@@ -23,6 +23,7 @@ header{
 }
 .menu{
     margin-left: 5%;
+    display: flex;
 }
 .menu-list{
     display: flex;
@@ -31,4 +32,11 @@ header{
 }
 .info-nav{
     padding: 15px;
+}
+.contacts{
+    display: flex;
+    
+}
+.contacts-menu{
+    list-style: none;
 }
