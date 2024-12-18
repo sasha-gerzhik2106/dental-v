@@ -2,8 +2,6 @@ body {
     margin: auto;
   }
   
-
-
 header{
     border: 10px;
     background-color: #ea6a13;
@@ -30,4 +28,21 @@ header{
 }
 .info-nav{
     padding: 15px;
+}
+.contacts{
+    display: flex;
+    margin-left: auto;
+}
+.contacts-menu{
+    list-style: none;
+}
+h1{
+    text-align: center;
+}
+.service{
+    list-style: none;
+    display: flex;
+    gap: 7%;
+    text-align: center;
+    margin-left: 15%;
 }
