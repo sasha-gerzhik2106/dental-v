@@ -13,10 +13,11 @@ header{
     flex-wrap: nowrap;
     padding: 10px;
 }
-.button{
-    margin: 5px;
-    padding-left: 10px;
-    padding-right: 30px;
+button{
+    margin-left: 15px; 
+    padding: initial;
+    width: 40px;
+    height: 40px;
 }
 .menu{
     margin-left: 5%;
@@ -29,6 +30,14 @@ header{
 .info-nav{
     padding: 15px;
 }
+.nav-style{
+    color: black;
+    text-decoration: none;
+}
+.nav-style:hover{
+    color: #4b0082;
+    transition: color 0.3s ease;
+}
 .contacts{
     display: flex;
     margin-left: auto;
@@ -36,8 +45,12 @@ header{
 .contacts-menu{
     list-style: none;
 }
+main{
+    
+}
 h1{
     text-align: center;
+    color: #ea6a13;
 }
 .service{
     list-style: none;
@@ -48,18 +61,57 @@ h1{
 }
 body{
     background-color: aliceblue;
+    background-image: url(../img/logobook\ dental\ V_curves.jpg);
+       opacity: 0,5;
+       margin: auto;
+       background-position: center; /* Центрирование */
+            background-repeat: no-repeat; /* Убираем повторение */
+            background-size: auto;
+            background-size: 100%;
 }
 .service-points{
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
-    justify-content: center;
+    gap: 10%;
+    justify-content: flex-start;
     align-items: stretch;
+}
+h2{
+    text-align: center;
 }
 .header-service{
     text-align: center;
-    
+    color: aliceblue;
+    margin-left: 3%;
+    text-decoration: none;
 }
+.header-service:hover{
+    color: #ea6a13;
+    transition: color 0.3s ease;
+}
+
 .list-service{
-    text-align: -webkit-auto;
+    text-align: left;
+    margin-left: 7%;
+}
+.service-list{
+    font-weight: 400px;
+    list-style: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: 	#FDF5E6;
+    margin-left: 5%;
+}
+
+
+
+footer{
+    margin: auto;
+    height: 3%;
+    background-color: #ea6a13;
+}
+.fot{
+    display: flex;
+
 }
